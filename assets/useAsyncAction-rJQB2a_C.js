@@ -1,0 +1,1 @@
+import{r as a,s as u}from"./index-BcWYu6JG.js";function f(n=!1){const[o,t]=a.useState(n),c=a.useCallback(async(i,e)=>{t(!0);try{return await i()}catch(r){const s=r instanceof Error?r:new Error(String(r));e?e(s):u.error(s.message||"操作失败");return}finally{t(!1)}},[]);return{loading:o,run:c}}export{f as u};

@@ -1,0 +1,1 @@
+import{l as m,ae as n}from"./index-BcWYu6JG.js";function i({onOk:o,onCancel:r,okText:a="确定",cancelText:s="取消",children:t,...e}){return m.jsx(n,{onOk:o,onCancel:r,okText:a,cancelText:s,...e,children:t})}export{i as F};
